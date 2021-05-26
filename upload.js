@@ -10,7 +10,6 @@ const {Storage} = require('@google-cloud/storage');
 const storage = new Storage();
 // Creates a client from a Google service account key
 // const storage = new Storage({keyFilename: 'key.json'});
-
 const uuidv1 = require('uuidv1');
 
 // http.createServer(function (req, res) {
